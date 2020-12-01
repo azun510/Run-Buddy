@@ -129,9 +129,6 @@ Section {
 .her-form label {
     margin: 0 5px;
 }
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -139,20 +136,21 @@ Section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
   
   .primary-border {
@@ -186,7 +184,7 @@ Section {
       font-size: 38px;
   }
   .trainers {
-      text-align: center;
+      
   }
   .trainer {
       width: 900px;
@@ -231,7 +229,6 @@ Section {
 
   /*Reach Out Styles Start*/
   .contact {
-      text-align: center;
       background: #024e76;
   }
   .contact h2 {
@@ -268,4 +265,7 @@ Section {
     color: #fce138;
   }
   
-  /* Reach out Styles End
+  /* Reach out Styles End*/
+  .flex-row {
+      display: flex;
+  }
