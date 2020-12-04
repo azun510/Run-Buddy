@@ -468,3 +468,7 @@
       order: 3;
     }
   }
+
+  .service-grid-container {
+    display: grid;
+  }
